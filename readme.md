@@ -14,7 +14,7 @@ $ npm install xkcd-37
 ## Usage
 
 ```js
-var fixHyphens = require('xkcd-37')
+var xkcd37 = require('xkcd-37')
 
 xkcd37('Man, that\'s a sweet-ass car')
 //=> 'Man, that\'s a sweet ass-car'

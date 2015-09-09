@@ -1,5 +1,5 @@
 { "name": "xkcd-37"
-, "version": "0.0.0"
+, "version": "1.0.0"
 , "description": "Whenever anyone calls something an [adjective]-ass [noun], move the hyphen one word to the right."
 , "license": "MIT"
 , "repository": "goto-bus-stop/xkcd-37"

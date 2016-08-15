@@ -5,7 +5,7 @@
 , "repository": "goto-bus-stop/xkcd-37"
 , "author": "René Kooi <rene@kooi.me>"
 , "scripts":
-  { "test": "standard && node ./test.js" }
+  { "test": "standard index.js && node ./test.js" }
 , "files": [ "index.js" ]
 , "keywords":
   [ "xkcd"

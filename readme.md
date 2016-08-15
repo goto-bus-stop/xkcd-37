@@ -19,6 +19,14 @@ var xkcd37 = require('xkcd-37')
 xkcd37('Man, that\'s a sweet-ass car')
 //=> 'Man, that\'s a sweet ass-car'
 ```
+### Advanced Usage
+Use a double backslash to not parse that part of the string.
+```js
+var xkcd37 = require('xkcd-37')
+
+xkcd37('Man, that\'s a sweet\\-ass car')
+//=> 'Man, that\'s a sweet-ass car'
+```
 
 ## License
 

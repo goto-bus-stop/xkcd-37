@@ -5,5 +5,5 @@ module.exports = function xkcd37 (str) {
     throw new TypeError('Expected a string')
   }
 
-  return str.replace(/(\S+?)-ass(\s+)(\S+?)/g, '$1$2ass-$3')
+  return str.replace(/(\w+?)(?!\\)+(-ass)(\s+)(\S+?)/g, '$1$3ass-$4').replace(/\\-/g, '-')
 }
